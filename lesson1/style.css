@@ -1,0 +1,19 @@
+body {
+    background-image: url(img/image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+
+p{
+    color: red;
+    font-size: 32px;
+}
+h2,h3 {
+    color: blue;
+}
+span {
+    color: aqua;
+    font-size: 40px;
+}
