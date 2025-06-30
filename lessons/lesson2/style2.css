@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Oswald&display=swap');
+
+ .oswald-uniquifier {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.bitcount-grid-double {
+    font-family: "Bitcount Grid Double", system-ui;
+}
