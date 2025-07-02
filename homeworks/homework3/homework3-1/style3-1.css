@@ -1,0 +1,43 @@
+*{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 16, 252);
+    margin-top: 20px;
+    height: 67vh;
+    font-size: 37px;
+}
+
+section{
+    margin-top: 25px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+.widget{
+    background-color: rgb(5, 5, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 35%;
+    font-size: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 16, 252);
+    margin-top: 25px;
+    margin-bottom: 35px;
+    height: 90vh;
+    font-size: 37px;
+}
