@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        *{
+            margin: 0;
+        }
+        footer, header{
+            height: 20vh;
+            width: 100vw;
+            color: #000;
+            font-family: Inter;
+            font-size: 45px;
+            font-weight: 400;
+        }
+        header{
+            background: #8D8484;
+        }
+        footer{
+            background: #BDBDBD;
+        }
+        .aside-top{
+            background: #937575;
+        }
+        .aside-bottom{
+            background: #644C4C;
+        }
+          .section-top{
+            background: #776969;
+        }
+        .section-middle{
+            background: #643030;
+        }
+        .section-bottom{
+            background: #441818;
+        }
+        section{
+            width: 73vw;
+            height: 20vh;
+        }
+        aside{
+            width: 27vw;
+            height: 30vh;
+        }
+        main{
+            display: flex;
+            color: #FFF;
+            font-family: Inter;
+            font-size: 45px;
+            font-weight: 400;
+        }
+        section, aside, footer, header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <main>
+        <div>
+            <section class="section-top">Content - 1</section>
+            <section class="section-middle">Content - 2</section>
+            <section class="section-bottom">Content - 3</section>
+        </div>
+        <div>
+            <aside class="aside-top">spam -1</aside>
+            <aside class="aside-bottom">spam -2</aside>
+        </div>
+    </main>
+    <footer>footer</footer>
+</body>
+</html>
