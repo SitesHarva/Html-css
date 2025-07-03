@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+}
+.font1{
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+.font2{
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.font3{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.font4{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.font5{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

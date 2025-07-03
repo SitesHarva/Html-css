@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+main{
+    display: flex;
+}
+nav{
+    width: 100vw;
+    height: 5vh;
+    background: #D9D9D9;
+}
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: #D9D9D9;
+}
+.left-section{
+    background: #A4A4A4;
+    height: 85vh;
+    width: 28vw;
+}
+.right-section{
+    background: #C1C1C1;
+    height: 85vh;
+    width: 31vw;
+}
+aside{
+    width: 41vw;
+    height: 42.5vh;
+}
+.top-aside{
+    background: #7F7A7A;
+}
+.bottom-aside{
+    background: #6B6161;
+}
