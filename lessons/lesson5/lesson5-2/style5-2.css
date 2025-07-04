@@ -1,0 +1,46 @@
+.pink-box{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: 100px auto 0 auto;
+    animation: name 5s linear infinite alternate;
+}
+@keyframes name {
+    /* 0%{
+
+    }
+    100%{
+
+    } */
+
+
+
+
+    /* from{
+        transform: scale(1.5) rotate(60deg);
+    }
+    40%{
+        border-radius: 30%;
+        transform: rotate(-60deg);
+    }
+    50%{
+        transform: skew(50deg);
+    }
+    to{
+        transform: scale(1) rotate(0deg);
+        background-color: yellow;
+    } */
+
+
+
+
+    from{
+        /* transform: scale(1,2); */
+         /* transform: scaleX(3); */
+         /* transform: skewX(40deg); */
+         transform: translateX(250px);
+    }
+    to{
+        background-color: yellow;
+    }
+}

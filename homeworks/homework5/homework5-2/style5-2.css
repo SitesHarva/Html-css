@@ -1,0 +1,23 @@
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(192, 190, 190);
+    border-radius: 50%;
+    border-top: 5px solid blue;
+    animation: spin 1.5s infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

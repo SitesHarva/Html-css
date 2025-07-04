@@ -1,0 +1,81 @@
+.animation{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.spinner-first{
+    width: 120px;
+    position: absolute;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 194, 194);
+    animation: spin 1.5s infinite alternate;
+    border-top: 5px solid rgb(180, 22, 83);
+    border-bottom: 5px solid rgb(255, 77, 77);
+    border-right: 5px solid rgb(180, 22, 83);
+    border-left: 5px solid rgb(255, 77, 77);
+}
+.spinner-second{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 194, 194);
+    animation: spinForward 1.5s infinite alternate;
+    border-top: 5px solid rgb(62, 65, 230);
+    border-bottom: 5px solid rgb(46, 22, 133);
+    border-right: 5px solid rgb(62, 65, 230);
+    border-left: 5px solid rgb(46, 22, 133);
+}
+.spinner-third{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 194, 194);
+    animation: spin 1.5s infinite alternate;
+    border-top: 5px solid rgb(71, 248, 65);
+    border-bottom: 5px solid rgb(11, 95, 18);
+    border-right: 5px solid rgb(71, 248, 65);
+    border-left: 5px solid rgb(11, 95, 18);
+}
+.square{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 40%;
+    background-color: rgba(150, 155, 155, 0.918);
+    animation: spin 1.5s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.square div{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(43, 240, 213);
+    border-radius: 50%;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) scale(1.5);
+    }
+}
+
+@keyframes spinForward {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg) scale(1.5);
+    }
+}
