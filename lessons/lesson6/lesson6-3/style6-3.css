@@ -1,0 +1,11 @@
+div :first-child{
+    color: coral;
+}
+
+div p::first-letter{
+    color: crimson;
+    font-size: 20px;
+}
+div :last-child{
+    color: blue;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style6-5.css">
+</head>
+<body>
+    <form class="form-reg">
+        <label for="name">enter your name</label>
+        <input type="text" name="name" id="name" placeholder="name" required>
+
+        <label for="email">enter your email</label>
+        <input type="email" name="email" id="email" placeholder="email" required>
+
+        <input type="file" placeholder="file">
+
+
+        <label>Стать</label>
+        <label><input type="radio" name="gender" value="male">Чоловіча</label>
+        <label><input type="radio" name="gender" value="female">Жіноча</label>
+
+        <label>
+            <input type="checkbox" name="news"> Підписатись на новини
+        </label>
+
+        <label for="">Країни</label>
+        <select id="lorem">
+            <option value="">Оберіть країну</option>
+            <option value="ua">Ukraine</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="ca">Canada</option>
+        </select>
+
+
+        <label for="">phone</label>
+        <select id="phone">
+            <optgroup label="apple">
+            <option value="x">iphone x</option>
+            <option value="xr">iphone xr</option>
+            <option value="xc">iphone xc</option>
+        </optgroup>
+        <optgroup label="samsung">
+            <option value="a">iphone a</option>
+            <option value="b">iphone b</option>
+            <option value="c">iphone c</option>
+        </optgroup>
+        </select>
+
+        <label for="">comment</label>
+        <textarea id="comment" rows="4" cols="30"></textarea>
+
+        <div>
+            <input type="submit" name="" id="" value="надіслати">
+            <input type="reset" name="" id="" value="скинути">
+        </div>
+    </form>
+</body>
+</html>

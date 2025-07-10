@@ -1,0 +1,23 @@
+label{
+    display: block;
+}
+
+form{
+    border: 3px solid lightblue;
+    width: 30%;
+    border-radius: 20px;
+    padding: 50px;
+}
+input[type="text"]{
+ background-color: rgb(178, 178, 255);
+ border: 2px solid lightblue;
+ border-radius: 2px;
+ color: cornflowerblue;
+ font-family: 'Courier New', Courier, monospace;   
+}
+input[type="text"]::placeholder{
+    color: wheat;
+}
+input[type="email"]:focus{
+    outline: 2px solid lightgreen;
+}

@@ -1,0 +1,36 @@
+/* button{
+    width: 200px;
+    height: 100px;
+}
+button:hover{
+    background-color: yellow;
+}
+button:active{
+    background-color: pink;
+}
+li{
+    color: red;
+}
+li::marker{
+    color: yellow;
+} */
+
+
+ul li::after {
+    content: "dfldl";
+    color: red;
+}
+ul li {
+    list-style-type: none;
+}
+ul{
+    padding-inline-start: 10px;
+}
+ul li::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url(img/call.png);
+    background-size: cover;
+}

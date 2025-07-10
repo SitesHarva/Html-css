@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border: 1px solid rgb(206, 206, 206);
+    width: 30vw;
+    height: 70vh;
+    margin-bottom: 50px;
+}
+.title-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 30px 0;
+}
+.container form, .facebook-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container form input:nth-child(1), input:nth-child(2){
+    width: 300px;
+    height: 35px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(231, 228, 228);
+    border-radius: 3px;
+}
+form input[type="email"] {
+    margin-bottom: 5px;
+}
+form input[type="submit"] {
+    font-weight: 600;
+    font-size: 15px;
+}
+.input-log{
+    margin-top: 10px;
+    width: 308px;
+    height: 35px;
+    color: white;
+    background-color: rgb(99, 115, 255);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.facebook-log div{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook-log div a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+}
+.facebook-log a {
+    text-decoration: none;
+    color: rgb(51, 51, 173);
+    font-size: 14px;
+}
+.register-div{
+    border: 1px solid rgb(206, 206, 206);
+    margin-top: 60px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-div a{
+    margin-left: 5px;
+    text-decoration: none;
+}
+.register-div span{
+    font-weight: 600;
+}
+
+p{
+    color: gray;
+    font-weight: 800;
+}
+.instagram{
+    width: 200px;
+}
+.facebook{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
