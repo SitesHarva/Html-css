@@ -1,0 +1,18 @@
+@media screen and (max-width: 769px) {
+    .items {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 32px;
+        padding: 32px 16px;
+    }
+    .item{
+        width: 100%;
+    }
+    .item h3{
+        margin-top: 16px;
+    }
+    .item p{
+        width: 343px;
+        margin-top: 8px;
+    }
+}

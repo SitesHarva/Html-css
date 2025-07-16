@@ -1,0 +1,67 @@
+@media screen and (min-width:0) and (max-width:480px) {
+    .circle-left, .circle-right{
+        display: none;
+    }
+    .page-not-found{
+        padding: 0 16px 0 16px;
+    }
+    .page-not-found h2{
+        color: var(--Text-txt-primary, rgba(255, 255, 255, 0.90));
+        text-align: center;
+        font-family: Inter;
+        font-size: 110px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        line-height: 82px;
+    }
+    .page-not-found h3{
+        color: var(--Text-txt-primary, rgba(255, 255, 255, 0.90));
+        text-align: center;
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 120%; /* 33.6px */
+        margin: 16px 0 8px 0;
+    }
+    .page-not-found p{
+        color: var(--Text-txt-secondary, rgba(255, 255, 255, 0.75));
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 140%; /* 25.2px */
+        width: 100%;
+    }
+    .btn-container{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .btn1{
+        display: flex;
+        height: 64px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        color: var(--Pallete-White, #FFF);
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 120%; /* 19.2px */
+    }
+    .btn2{
+        display: flex;
+        height: 64px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        color: var(--Pallete-Black, #000);
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 120%; /* 19.2px */
+    }
+}

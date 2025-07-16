@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: gray;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+}
+.item1{
+    align-self: flex-start;
+}
+.item2{
+    align-self: center;
+}
+
+.item3{
+    align-self: flex-end;
+}
