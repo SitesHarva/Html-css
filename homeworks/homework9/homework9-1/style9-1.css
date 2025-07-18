@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+.wrap{
+    display: grid;
+    grid-template-rows: 21vh 58vh 21vh;
+}
+header, footer{
+    background: #D9D9D9;
+}
+main{
+    background: #A4A4A4;
+}

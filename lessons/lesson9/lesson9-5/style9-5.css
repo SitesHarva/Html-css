@@ -1,0 +1,15 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    gap: 30px
+}
+.carousel{
+    height: 50vh;
+}
+.carousel img{
+    height: 50vh;
+    object-fit: cover;
+    background-position: bottom;
+}
